@@ -19,9 +19,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //task_1();
+        task_1();
         task_2();
-        //task_3();
+        task_3();
 
 
 
@@ -55,6 +55,7 @@ public class Main {
     }
 
     private static void task_3() {
+        System.out.println("\nTask_3:");
         int[] array = RandomArray(20,  0, 5);
         PrintArray(array);
         int left = 0;
@@ -84,7 +85,7 @@ public class Main {
 
     private static void task_2() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a year: ");
+        System.out.println("\n\nTask_2:\nEnter a year: ");
         int year = scan.nextInt();
         //System.out.println(year);
         System.out.println(isLeap(year));
@@ -92,6 +93,7 @@ public class Main {
     }
 
     private static void task_1() {
+        System.out.println("\nTask_1:");
         int[] array = RandomArray(10, 0, 10);
         PrintArray(array);
         int min = array[0];
